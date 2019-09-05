@@ -1,0 +1,74 @@
+body{ 
+  background: url(../images/background.png) no-repeat center top;
+  width: 762px;
+  height: 1080px;
+} 
+.div{
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 762px;
+  height: 1080px;
+} 
+p,h3{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  margin: 90px 320px 10px 320px;
+}
+.head img{
+  border: 6px solid #645052;
+  height: 122px;
+  width: 122px;
+  border-radius: 50%;
+}
+.info-top,.info-bottom{
+  text-align: center;
+}
+.info-moddle{
+  margin: 0 100px;
+  width: 550px;
+  text-align: center;
+  border-style: double;
+  padding: 3px;
+
+}
+.info-moddle div{
+  display: inline;
+  margin: 20px;
+}
+.info-moddle img{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+.info-bottom span{
+  margin: 15px;
+}
+.message{
+  display: flex;
+}
+.message img{
+  width: 30px;
+  height: 30px;
+}
+h3{
+  padding: 5px 35px;
+}
+.all{
+  margin: 10px 40px;
+}
+.ps{
+  margin: 0 45px;
+}
+.ps.size{
+  font-size: 50px;
+}
+.underline{
+  margin-top: 15px;
+  border: 1px dashed green;
+}
